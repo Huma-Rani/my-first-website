@@ -8,10 +8,11 @@
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1440px;
     margin: auto;
     margin-top: 20px;
 }
+
 
 .hero {
     height: 100vh;
@@ -39,7 +40,7 @@
     position: absolute;
     top: 40px;
     right: 0;
-    width: 50%;
+    width: 350px;
     height: 400px;
     object-fit: cover;
 }
@@ -52,6 +53,7 @@
     color: white;
     height: calc(100vh - 62px);
 }
+
 
 .shop-now {
     background-color: rgb(254, 84, 51);
@@ -105,7 +107,7 @@
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:78px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
 
